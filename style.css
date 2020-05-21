@@ -1,7 +1,12 @@
 body {
-  background-color: #fe9801;
+  background-color: #330d99;
   color: black;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background: url(images/bg1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .container {
@@ -11,9 +16,11 @@ body {
 }
 
 .heading {
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   font-size: 3rem;
-  color: black;
+  color: rgb(255, 207, 49);
+  font-family: 'Permanent Marker', cursive;
 }
 
 .header {
@@ -21,18 +28,23 @@ body {
   align-items: center;
 }
 
-.timer, .errors,
-.accuracy, .cpm, .wpm {
-  background-color: #ccda46;
+.timer,
+.errors,
+.accuracy,
+.cpm,
+.wpm {
+  background-color: #3c63fd;
   height: 60px;
   width: 70px;
-  margin: 8px;
-  padding: 12px;
+  margin: 8px 20px;
+  padding: 9px;
   border-radius: 20%;
-  box-shadow: black 5px 8px 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
-.cpm, .wpm  {
+.cpm,
+.wpm {
   display: none;
 }
 
@@ -42,30 +54,39 @@ body {
   font-weight: 600;
 }
 
-.curr_time, .curr_errors,
-.curr_accuracy, .curr_cpm,
+.curr_time,
+.curr_errors,
+.curr_accuracy,
+.curr_cpm,
 .curr_wpm {
-  font-size: 2.75rem;
+  font-size: 2rem;
+  padding-top: 5px;
 }
 
 .quote {
-  background-color: #ccda46;
-  font-size: 1.5rem;
-  margin: 10px;
-  padding: 25px;
-  box-shadow: black 5px 8px 5px;
+  background-color: #3c63fd;
+  color: white;
+  font-size: 1.2rem;
+  margin: 40px 10px 10px 10px;
+  width: 40%;
+  padding: 25px 0px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
 
 .input_area {
-  background-color: #f5f5c6;
+  background-color: rgb(203, 213, 255);
   height: 80px;
   width: 40%;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 15px;
   padding: 20px;
-  border: 0px;
-  box-shadow: black 5px 8px 5px;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
 
 .incorrect_char {
@@ -78,10 +99,13 @@ body {
 }
 
 .restart_btn {
+  margin-top: 20px;
   display: none;
-  background-color: #326765;
-  font-size: 1.5rem;
-  padding: 10px;
+  background-color: #3c63fd;
+  font-size: 1.2rem;
+  padding: 15px 30px;
   border: 0px;
-  box-shadow: black 5px 8px 5px;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
